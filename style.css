@@ -1,0 +1,65 @@
+body{
+    background-color: #e8f4f8 !important;
+}
+.input{
+    width:300px ;
+    border:none;
+    outline:none;
+}
+.navbar-brand{
+    font-family:lobster;
+    color:blue!important;
+}
+.milk-img{
+    width:100%;
+    border-radius: 10px;
+    height:400px;
+    object-fit: cover;
+}
+.card-img-top{
+    height:300px;
+    object-fit: cover;
+}
+.background{
+    background-image: url("Milk-basket.jpg");
+    background-size: cover;
+    width:100%;
+    height:200px;
+}
+.time{
+    width:80px;
+    border:1px solid lightslategrey;
+    padding:5px;
+    margin-right:0.5rem;
+}
+.ad-wrapper{
+    background-color: darkcyan;
+}
+.best-seller-wrapper{
+    background-color: skyblue;
+}
+.view{
+    border-radius: 4px;
+    background-color: navy;
+    border:none;
+    padding:5px;
+    outline:none;
+}
+.feature-wrapper{
+    background-color:white;
+    box-shadow: -9px 15px 72px 0px rgba(216,215,215,0.75);
+    padding: 10px 10px;
+    text-align: center;
+}
+.fa-envelope-square{
+    color:limegreen;
+}
+.about,footer{
+    background-color:#fff ;
+}
+@media only screen and (max-width: 576px){
+    .milk-img{
+        height:200px;
+    }
+   
+}
